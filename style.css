@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    background-image: url('https://img.freepik.com/free-vector/watercolor-oil-painting-background_52683-106526.jpg?semt=ais_hybrid&w=740&q=80');
+    background-size: cover;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+   
+.navbar ul {
+    background-color: #57a3cd;
+    background-color: cover;
+    list-style: none;
+    overflow: hidden;   
+    color: rgb(246, 242, 242);
+    padding-left: 380px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+}
+.navbar a:hover {
+
+    background-color: #151214;
+}
+.navbar li {
+    display: inline;
+    float: left;
+    text-align: center;
+}
+section {
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(247, 239, 244, 0.1);
+    font-size: 15px;
+    color:black; 
+
+    section h1{
+        color: #cc188a;
+    }
+}
+section a{
+    color:#23d4da;
+    background-color: #090a0a;
+    font-size:12px;
+    display: outline-block;
+    
+    
+}
+section a:hover{
+    color:#0cd3ed;
+}
+   
+.logo {
+    list-style: none;
+    color: rgb(17, 14, 9);
+    padding-left: 20px;
+   vertical-align: left;
+font-family:'Lucida Handwriting', cursive;
+height:0px;
+    font-size: 20px;
+}
+.icon {
+    list-style: none;
+    overflow: hidden;   
+    color: rgb(227, 227, 227);
+    padding-left: 380px;
+    background-size: 20px;
+    vertical-align: middle;
+
+}
+.search {
+    float: left;
+    padding-left: 800px;
+    height: 4px;
+}
+.search input {
+    padding: 5px;
+    font-size: 17px;
+    border: none;
+    border-radius: 5px;
+    background:transparent;
+    border: 3px solid #f010b1;
+    color:rgb(20, 19, 20);
+    text-align: left;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.search input::placeholder {
+    color: rgb(9, 4, 13);
+    font-size: 15px;
+}
+.search button {
+    padding: 5px 10px;
+    font-size: 17px;
+    border:none; 
+    background-color: #ff00d9;
+    color: white;
+    cursor: pointer;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+.form {
+    background-color: rgb(252, 146, 217);
+    background-size: 10px;
+    height: 350px;
+    padding-right: 0px;
+    padding-left: 5px;
+        text-align: center;  
+        border-bottom-left-radius: 60px;
+        }
+
+.form h3 {
+    padding-left: 20px;
+    color:#fffeff;
+    padding-right: 15px;
+    background-size: 3px;
+    border:50px;
+    background-color: #cc188a;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+}
+.form h3{
+    padding-bottom:10px;
+    padding-top: 10px;
+    margin-right:58px;
+}
+.content {
+    color:#fa84cf;
+    font-size: 15px;
+    padding-top:0px;
+}
+.content .pr {
+    font-size:18px;
+    margin-bottom: 10px;
+    padding-top: 0px;
+}
+   .content .bt {
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+    background: rgb(144, 238, 236);
+ border-top-left-radius: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+.content .bt:hover {
+    background-color: #ee81b4;
+}
+.content span {
+    font-size: 32px;
+    color:#10d8ce
+
+}
+
